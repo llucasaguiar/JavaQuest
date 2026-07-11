@@ -1,4 +1,4 @@
-package switchCase;
+package aula01.switchCase;
 
 import java.util.Scanner;
 

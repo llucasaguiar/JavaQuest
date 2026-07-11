@@ -1,4 +1,4 @@
-package repeticao;
+package aula01.repeticao;
 
 import java.util.Scanner;
 
