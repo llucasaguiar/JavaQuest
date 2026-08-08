@@ -25,15 +25,4 @@ public class Empresa extends Usuario {
         this.razaoSocial = razaoSocial;
     }
 
-    @Override
-    public String toString() {
-        return "Empresa{" +
-                "cnpj='" + cnpj + '\'' +
-                ", razaoSocial='" + razaoSocial + '\'' +
-                ", id=" + id +
-                ", nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                ", senha='" + senha + '\'' +
-                '}';
-    }
 }

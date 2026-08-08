@@ -1,3 +1,5 @@
+package Projeto;
+
 public abstract class Usuario {
 
     protected Long id;
