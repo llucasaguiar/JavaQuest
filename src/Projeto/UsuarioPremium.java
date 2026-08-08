@@ -26,7 +26,7 @@ public class UsuarioPremium extends Usuario implements Monetizavel {
     }
 
     @Override
-    public void monetizar() {
+    public void ativarMonetizacao() {
         System.out.println("Usuário Premium monetizado.");
     }
 

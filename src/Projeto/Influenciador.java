@@ -16,7 +16,21 @@ public class Influenciador extends CriadorConteudo implements Patrocinado{
     }
 
     public Influenciador(Long id, String nome, String email, String senha) {
+
         super(id, nome, email, senha);
+    }
+
+    @Override
+    public void exibirPerfil() {
+
+    }
+
+    public Influenciador(Long id, String nome, String email, String senha, String descricao, int seguidores, String nicho) {
+        super(id, nome, email, senha, descricao, seguidores);
+        this.nicho = nicho;
+    }
+
+    public void Influenciador() {
     }
 
     @Override

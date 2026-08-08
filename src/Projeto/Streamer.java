@@ -15,6 +15,16 @@ public class Streamer extends CriadorConteudo implements Patrocinado{
         super(id, nome, email, senha);
     }
 
+    @Override
+    public void exibirPerfil() {
+
+    }
+
+    public Streamer(Long id, String nome, String email, String senha, String descricao, int seguidores, String plataforma) {
+        super(id, nome, email, senha, descricao, seguidores);
+        this.plataforma = plataforma;
+    }
+
     public void iniciarLive() {
         System.out.println("Live iniciada.");
     }

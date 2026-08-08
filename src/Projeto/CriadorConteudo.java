@@ -25,6 +25,12 @@ public class CriadorConteudo extends Usuario implements Transmitivel {
         super(id, nome, email, senha);
     }
 
+    public CriadorConteudo(Long id, String nome, String email, String senha, String descricao, int seguidores) {
+        super(id, nome, email, senha);
+        this.descricao = descricao;
+        this.seguidores = seguidores;
+    }
+
     public void criarConteudo() {
         System.out.println("Conteúdo criado.");
     }

@@ -14,6 +14,17 @@ public abstract class Usuario {
         this.senha = senha;
     }
 
+    public Usuario() {
+
+    }
+
+    public void exibirPerfil() {
+        System.out.println("Id: " + id);
+        System.out.println("Nome: " + nome);
+        System.out.println("Email: " + email);
+        System.out.println("Senha: " + senha);
+    }
+
     public void autenticar() {
         System.out.println("Usuário autenticado!");
     }

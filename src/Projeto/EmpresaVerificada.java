@@ -1,5 +1,6 @@
 package Projeto;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class EmpresaVerificada extends Empresa {
@@ -10,8 +11,13 @@ public class EmpresaVerificada extends Empresa {
         this.dataVerificacao = dataVerificacao;
     }
 
+    public EmpresaVerificada(Long id, String nome, String email, String senha, String cnpj, String razaoSocial, Date dataVerificacao) {
+        super(id, nome, email, senha, cnpj, razaoSocial);
+        this.dataVerificacao = dataVerificacao;
+    }
+
     public void selarVerificacao() {
-        System.out.println("Empresa voerificada.");
+        System.out.println("Empresa verificada.");
     }
 
     @Override

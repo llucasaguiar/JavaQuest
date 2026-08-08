@@ -13,7 +13,11 @@ public class UsuarioComum extends Usuario {
         this.dataCadastro = dataCadastro;
     }
 
-    public void visualizarConteudo() {
+    public UsuarioComum() {
+        super();
+    }
+
+    public void visualizarConteudos() {
         System.out.println(nome + " está visualizando conteúdo.");
     }
 }
